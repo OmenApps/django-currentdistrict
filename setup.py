@@ -30,9 +30,6 @@ setup(
         'django_currentdistrict',
     ],
     include_package_data=True,
-    install_requires=[
-        'Django>=1.11.17,<3.1;python_version>="3.5.0"',
-    ],
     license="BSD",
     zip_safe=False,
     keywords='django-currentdistrict',
@@ -42,7 +39,6 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',

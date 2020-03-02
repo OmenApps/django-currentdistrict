@@ -1,5 +1,4 @@
 from django.conf import settings
-from django.contrib.auth.models import AnonymousUser
 from threading import local
 
 DISTRICT_ATTR_NAME = getattr(settings, 'LOCAL_DISTRICT_ATTR_NAME', '_current_district')
